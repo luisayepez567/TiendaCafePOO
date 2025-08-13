@@ -30,4 +30,9 @@ public class cafe {
     double actualizarCantidad (double nuevaCantidad) {
             return nuevaCantidad;
 }
+
+   double aplicarDescuento (double porcentajeDescuento) {
+            return calcularPrecioTotal(precioPorKilo, cantidadEnKilos) * (1 - porcentajeDescuento / 100);
+
+}
   }
